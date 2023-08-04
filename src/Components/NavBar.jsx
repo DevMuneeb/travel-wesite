@@ -31,6 +31,7 @@ const NavBar = () => {
                 <li><a href="/room-suites">Room &amp; Suites</a></li>
                 <li><a href="/restaurant-bar">Restaurant &amp; Bar</a></li>
                 <li><a href="/blog">Blog</a></li>
+                <li>urfhefier</li>
             </ul>
      
             <div className="navbar-actions">
