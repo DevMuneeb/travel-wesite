@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+    padding: 2rem;
+    padding-left: 6.5rem;
+    padding-right: 4rem;
+    color: black;
+}
+
+.navbar-logo svg{
+    padding-top: 8px;
+    padding-right:2rem;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-items {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    right: 20%;
+    margin: 0;
+}
+
+.navbar-items li a {
+    font-weight: 450;
+    text-decoration: none;
+    color:#515151;
+    transition: color 0.3s;
+}
+
+.navbar-items li a:hover {
+    color:  #C7923E;
+    font-weight: 500;
+}
+
+.navbar-actions {
+    display: flex;
+    float: inline-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.booking-button {
+    background-color:#C7923E;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.booking-button:hover {
+    background-color:#C7923E;
+}
+
+.search-icon {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    align-items: center;
+    color: rgb(26, 23, 23);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    
+    .navbar-items {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .navbar-actions {
+        margin-top: 1rem;
+        align-self: flex-end;
+    }
+    
+    .search-icon {
+        font-size: 1.5rem;
+    }
+}
