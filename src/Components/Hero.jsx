@@ -6,7 +6,8 @@ const Hero = () => {
         <div className="hero">
             <div className="hero-content">
                 <div className="hero-text">
-                    <p>The world's largest chain of hotels is Best Western</p>
+                    <p className="Heading-1">The world's largest chain of hotels is Best Western</p>
+                    <p className="description-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit orem ipsum dolor sit amet,</p>
                 </div>
                 <div className="hero-image"></div>
             </div>

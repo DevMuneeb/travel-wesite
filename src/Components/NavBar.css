@@ -1,15 +1,16 @@
 .navbar {
-
+margin:0px;
     display:flex;
    position:absolute;
     align-items: center;
     background-color: none;
-  padding-top:2rem ;
+   padding-top:2rem ;
     padding-left: 6.5rem;
-    padding-right: 2rem;
+    padding-right: 0px;
     color: black;
- 
-   
+    width:100%;
+
+
    
 }
 
@@ -23,13 +24,13 @@
 }
 
 .navbar-items {
-    padding-left: 180px;
-    padding-right: 200px;
+    padding-left: 200px;
+    padding-right: auto;
     list-style-type: none;
     display: flex;
     gap: 1.5rem;
     position: relative;
-    right: 15%;
+    right: 13%;
     margin: 0;
 }
 
@@ -48,8 +49,9 @@
 .navbar-actions {
     display: flex;
     float: inline-start;
-    align-items: flex-end;
     gap: 1rem;
+    margin-right:108px;
+    margin-left:auto;
 }
 
 .booking-button {
@@ -69,7 +71,7 @@
 }
 
 .search-icon {
- 
+
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
     font-weight: lighter;
@@ -80,12 +82,15 @@
 
 @media (max-width: 768px) {
     .navbar {
+        position: relative;
+      padding-left: 1rem ;
         flex-direction: column;
     }
     
     .navbar-items {
         flex-direction: column;
         align-items: flex-start;
+        padding-left: 1rem ;
         gap: 0.5rem;
     }
     
