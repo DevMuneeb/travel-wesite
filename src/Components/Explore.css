@@ -1,0 +1,76 @@
+/* Explore.css */
+
+.explore {
+   position: absolute;
+    width: 750px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--light-base-color-white, #FFF);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+   justify-content:flex-start;
+   z-index: 1;
+   margin-bottom: 200px;
+  
+  }
+  .dropdown{
+    padding-right: 52px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+  }
+  
+  .dropdown-label{
+    /* Headlines/Headline Bold Normal */
+    color: var(--light-text-color-body-2, #9A9AB0);
+/* Captions/Captions Regular */
+         padding-left: 4px;
+            font-family: Mulish;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%; /* 14.4px */
+            letter-spacing: 0.096px;
+  }
+  .explore select{
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 0.08px;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+  
+  }
+  .booking-button2 {
+   position:absolute;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    margin-left: 105px ;
+    display: inline-flex;
+    height: 56px;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--light-secondary-color-50, #C7923E);
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.booking-button2:hover {
+    background-color:#C7923E;
+}
+
+  

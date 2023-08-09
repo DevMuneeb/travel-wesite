@@ -1,0 +1,15 @@
+.partners_logo{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top:300px;
+    width: 634.892px;
+height: 70.481px;
+flex-shrink: 0;
+gap:10px;
+}
+.partner_logo1{
+    width: 114.178px;
+height: 70.481px;
+flex-shrink: 0;
+}
