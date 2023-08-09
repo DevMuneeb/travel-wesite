@@ -28,16 +28,17 @@ const NavBar = () => {
 </svg></Link>
       
           <ul className="navbar-items">
-                <Link className="item" to="/home">Home</Link>
+                <Link className="item" to="/">Home</Link>
                 <Link className="item"to="/room-suites">Room &amp; Suites</Link>
                  <Link className="item"to="/restaurant-bar">Restaurant &amp; Bar</Link>
                 <li> <Link className="item"to="/blog">Blog</Link></li>
             </ul>
             <div className="navbar-actions">
+                
+                <FaSearch className="search-icon" />
                 <Link to="/booking">
                     <button className="booking-button">Book Room</button>
                 </Link>
-                <FaSearch className="search-icon" />
             </div>
         </nav>
     
