@@ -4,12 +4,11 @@
    position: absolute;
     width: 816px;
     height: 88px;
-    top: 608;
-
+    
+   background-color: rgb(249, 253, 253);
     flex-shrink: 0;
     border-radius: 8px;
-    background: var(--light-base-color-white, #FFF);
-    margin-top: 100px;
+    margin-top: 64px;
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
@@ -17,17 +16,42 @@
  
   
   }
-  .dropdown{
-    padding-right: 52px;
+  .dropdown-Guest{
+    position: absolute;
     margin-top: 16px;
     margin-bottom: 16px;
+    height:41px;
+    width:81px;
+    left:128px;
 
   }
-  
+  .dropdown-date{
+    position: absolute;
+    width: 164px;
+    height: 41px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height:41px;
+    width:81px;
+    left:265px;
+  }
+  .dropdown-room{
+    position: absolute;
+    width: 169px;
+    height: 41px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height:41px;
+    width:81px;
+    left:485px;
+    background-color: aquamarine;
+  }
   .dropdown-label{
     /* Headlines/Headline Bold Normal */
     color: var(--light-text-color-body-2, #9A9AB0);
 /* Captions/Captions Regular */
+            margin-top: 24px;
+            margin-bottom: 8px;
         padding-left: 4px;
             font-family: Mulish;
             font-size: 12px;
@@ -50,40 +74,64 @@
   }
   .select-guest{
     width: 81px;
-   height: 41px;
-    top: 632px;
+    height: 19px;
+    top: 654px;
+   Name: Headlines/Headline Bold Normal;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+ text-align: start;
+
+    
    
 
   }
   .select-date{
     width: 164px;
-height: 41px;
-top: 632px;
-
-
+    height: 19px;
+    top: 654px;
+   Name: Headlines/Headline Bold Normal;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+ text-align: start;
   }
   .select-Room{
-    width: 169px;
-height: 41px;
-top: 632px;
+    width: 145px;
+    height: 19px;
+    top: 654px;
+   Name: Headlines/Headline Bold Normal;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+ text-align: start;
+  
 
 
   }
   .booking-button2 {
-   position:relative;
 
+position: absolute;
     color: white;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-right: 16px;
-   display: inline-flex;
+    display: inline-flex;
     height: 56px;
     padding: 18px 24px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
+    width: Hug (159px);
+    width: 159px;
+    left: 745px;
+    padding: 18px 24px 18px 24px;
     border-radius: 8px;
+    gap: 10px;
     background: var(--light-secondary-color-50, #C7923E);
      border: none;
     border-radius: 5px;

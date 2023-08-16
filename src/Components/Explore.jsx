@@ -25,7 +25,7 @@ const Explore = () => {
 
   return (
     <div className="explore">
-      <div className='dropdown'>
+      <div className='dropdown-Guest'>
         <label className='dropdown-label'>Guests:<br></br></label>
         <select className="select-guest" value={guests} onChange={handleGuestsChange}>
           <option value="2">2 Adult</option>
@@ -33,17 +33,7 @@ const Explore = () => {
           <option value="4">4 Adult</option>
         </select>
       </div>
-
-      <div className='dropdown'>
-        <label className='dropdown-label'>Room Type:<br></br></label>
-        <select className="select-Room" value={roomType} onChange={handleRoomTypeChange}>
-          <option value="PREMIUM">Premium</option>
-          <option value="LUXURY">Luxury Suite</option>
-          <option value="SINGLE">Single Bedroom</option>
-        </select>
-      </div>
-
-      <div className='dropdown'>
+      <div className='dropdown-date'>
         <label className='dropdown-label'>Date:<br></br></label>
         <select  className='select-date' value={selectedDate} onChange={handleDateChange}>
           {Array.from({ length: 30 }, (_, index) => {
@@ -54,6 +44,17 @@ const Explore = () => {
           })}
         </select>
       </div>
+
+      <div className='dropdown-room'>
+        <label className='dropdown-label'>Room Type:<br></br></label>
+        <select className="select-Room" value={roomType} onChange={handleRoomTypeChange}>
+          <option value="PREMIUM">Premium</option>
+          <option value="LUXURY">Luxury Suite</option>
+          <option value="SINGLE">Single Bedroom</option>
+        </select>
+      </div>
+
+     
       <Link to="/booking">
                     <button className="booking-button2">Booking Room</button>
                 </Link>
