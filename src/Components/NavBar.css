@@ -1,6 +1,7 @@
 .navbar {
-margin:0px;
-    display:flex;
+    margin:0px;
+   display: flex;
+   flex-direction: row;
    position:absolute;
     align-items: center;
     background-color: none;
@@ -8,7 +9,7 @@ margin:0px;
     padding-left: 6.5rem;
     padding-right: 0px;
     color: black;
-    width:100%;
+    width: 1232px;
 
 
    
@@ -83,7 +84,7 @@ margin:0px;
 @media (max-width: 768px) {
     .navbar {
         position: relative;
-      padding-left: 1rem ;
+        padding-left: 1rem ;
         flex-direction: column;
     }
     

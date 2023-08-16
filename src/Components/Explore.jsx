@@ -27,16 +27,16 @@ const Explore = () => {
     <div className="explore">
       <div className='dropdown'>
         <label className='dropdown-label'>Guests:<br></br></label>
-        <select value={guests} onChange={handleGuestsChange}>
-          <option value="2">2 Adults</option>
-          <option value="3">3 Adults</option>
-          <option value="4">4 Adults</option>
+        <select className="select-guest" value={guests} onChange={handleGuestsChange}>
+          <option value="2">2 Adult</option>
+          <option value="3">3 Adult</option>
+          <option value="4">4 Adult</option>
         </select>
       </div>
 
       <div className='dropdown'>
         <label className='dropdown-label'>Room Type:<br></br></label>
-        <select value={roomType} onChange={handleRoomTypeChange}>
+        <select className="select-Room" value={roomType} onChange={handleRoomTypeChange}>
           <option value="PREMIUM">Premium</option>
           <option value="LUXURY">Luxury Suite</option>
           <option value="SINGLE">Single Bedroom</option>
@@ -45,7 +45,7 @@ const Explore = () => {
 
       <div className='dropdown'>
         <label className='dropdown-label'>Date:<br></br></label>
-        <select value={selectedDate} onChange={handleDateChange}>
+        <select  className='select-date' value={selectedDate} onChange={handleDateChange}>
           {Array.from({ length: 30 }, (_, index) => {
             const currentDate = new Date();
             currentDate.setDate(currentDate.getDate() + index);
