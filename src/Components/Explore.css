@@ -2,17 +2,19 @@
 
 .explore {
    position: absolute;
-    width: 750px;
+    width: 816px;
     height: 88px;
+    top: 608;
+
     flex-shrink: 0;
     border-radius: 8px;
     background: var(--light-base-color-white, #FFF);
     margin-top: 100px;
     display: flex;
     flex-direction: row;
-   justify-content:flex-start;
-   z-index: 1;
-   margin-bottom: 200px;
+    justify-content:flex-start;
+    z-index: 1;
+ 
   
   }
   .dropdown{
@@ -26,7 +28,7 @@
     /* Headlines/Headline Bold Normal */
     color: var(--light-text-color-body-2, #9A9AB0);
 /* Captions/Captions Regular */
-         padding-left: 4px;
+        padding-left: 4px;
             font-family: Mulish;
             font-size: 12px;
             font-style: normal;
@@ -46,14 +48,35 @@
     padding: 0%;
   
   }
+  .select-guest{
+    width: 81px;
+   height: 41px;
+    top: 632px;
+   
+
+  }
+  .select-date{
+    width: 164px;
+height: 41px;
+top: 632px;
+
+
+  }
+  .select-Room{
+    width: 169px;
+height: 41px;
+top: 632px;
+
+
+  }
   .booking-button2 {
-   position:absolute;
+   position:relative;
+
     color: white;
     margin-top: 16px;
     margin-bottom: 16px;
     margin-right: 16px;
-    margin-left: 105px ;
-    display: inline-flex;
+   display: inline-flex;
     height: 56px;
     padding: 18px 24px;
     justify-content: center;
