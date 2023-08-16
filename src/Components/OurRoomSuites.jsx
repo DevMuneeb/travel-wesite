@@ -61,7 +61,7 @@ const OurRoomSuites = () => {
           >
             <div className="card1">
               <div className="Room-image1"></div>
-              <h3 className='DeluxRoom'>Delux Room</h3>
+              <h3 className='DeluxRoom'>Delux </h3>
             </div>
             <div className="card2">
               <div className="Room-image2"></div>
