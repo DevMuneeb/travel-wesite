@@ -57,8 +57,8 @@ letter-spacing: 0.08px;
 .hero-image {
     padding: 0;
     margin: 0;
-    position: relative;
- right:5%;
+    position: absolute;
+    left:712px;
     width: 624px;
     height: 900px;
     background-color: #909090;
