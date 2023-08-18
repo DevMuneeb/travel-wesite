@@ -5,7 +5,7 @@
     width: 816px;
     height: 88px;
     
-   background-color: rgb(249, 253, 253);
+   background-color: rgb(255, 255, 255);
     flex-shrink: 0;
     border-radius: 8px;
     margin-top: 64px;
@@ -130,7 +130,7 @@ position: absolute;
     flex-shrink: 0;
     width: Hug (159px);
     width: 159px;
-    left: 745px;
+    left: 641px;
     padding: 18px 24px 18px 24px;
     border-radius: 8px;
     gap: 10px;

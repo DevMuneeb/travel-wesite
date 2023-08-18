@@ -10,7 +10,20 @@
  
     
   }
-  
+  .ourroomandsuites_description{
+    width: 504px;
+height: 40px;
+top: 2209px;
+left: 104px;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.005em;
+text-align: left;
+color:#515151;
+
+  }
 .section-heading {
     position: absolute;
     width: 473px;
@@ -21,18 +34,61 @@
     text-align: left;
 
   }
-  
+  .card1{
+    width: 400px;
+height: 556px;
+top: 2305px;
+left: 104px;
+padding:16px 16px 16px ;
+
+  }
+  .card2{
+    width: 400px;
+height: 556px;
+top: 2305px;
+left: 104px;
+padding:16px 16px 16px ;
+
+  }
+  .card3{
+    width: 400px;
+height: 556px;
+top: 2305px;
+left: 104px;
+padding:16px 16px 16px ;
+
+  }
+  .card4{
+    width: 400px;
+height: 556px;
+top: 2305px;
+left: 104px;
+padding:16px 16px 16px ;
+
+  }
   .scroll-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
-  
     height: 723px; 
   
   }
   
-  .scroll-button {
+  .scroll-buttonleft {
+    width: 56px;
+    height: 56px;
+     border-radius: 8px;
+    flex-shrink: 0;
+    background-color: white;
+   
+    position: absolute;
+     left:1040px;
+     border-color: #C7923E;
+     margin:8px
+  
+  }
+  .scroll-buttonright{
     width: 56px;
     height: 56px;
      border-radius: 8px;
@@ -40,49 +96,56 @@
     background-color: white;
     border: 1px 1px;
     position: absolute;
-   left: 1280px;
-
- 
-    border-color: #C7923E;
+    left:1104px;
+     border-color: #C7923E;
      margin:8px
-  
   }
- .scroll-button svg{
+ .scroll-buttonright svg{
    
         fill:  #C7923E; /* Default color */
         transition: fill 0.3s; /* Smooth transition on color change */
       
  }
- .scroll-button:hover svg{
+ .scroll-buttonright:hover svg{
    
     fill:white;/* Default color */
     transition: fill 0.3s; /* Smooth transition on color change */
   
 }
-  .scroll-button:hover {
+  .scroll-buttonright:hover {
     background: var(--light-secondary-color-50, #C7923E);
     border: none;
   }
- 
+
+  .scroll-buttonleft svg{
+   
+    fill:  #C7923E; /* Default color */
+    transition: fill 0.3s; /* Smooth transition on color change */
+  
+}
+.scroll-buttonleft:hover svg{
+
+fill:white;/* Default color */
+transition: fill 0.3s; /* Smooth transition on color change */
+
+}
+.scroll-buttonleft:hover {
+background: var(--light-secondary-color-50, #C7923E);
+border: none;
+}
   .Room-image1{
     width: 368px;
     height: 369px;
     top: 2321px;
     left: 120px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top:16px;
+    
     background: var(--light-fills-color-image-placeholder, #909090);}
     .Room-image2{
-
      top: 2321px;
      left: 536px;
      width: 368px;
      height: 369px;
-     margin-left: 16px;
-     margin-right: 16px;
-     margin-top: 16px;
-     
+    
      flex-shrink: 0;
      background: var(--light-fills-color-image-placeholder, #909090);
     }
@@ -92,9 +155,7 @@
         left: 536px;
         width: 368px;
         height: 369px;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-top: 16px;
+      
         
         flex-shrink: 0;
         background: var(--light-fills-color-image-placeholder, #909090);
@@ -105,9 +166,7 @@
         left: 536px;
         width: 368px;
         height: 369px;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-top: 16px;
+       
         
         flex-shrink: 0;
         background: var(--light-fills-color-image-placeholder, #909090);
@@ -117,11 +176,9 @@
     position: absolute;
     overflow: hidden;
     width: 300px;
-    margin: 0 10px;
     width: 1350px;
     height: 556px;
-
-   left: 104px;
+    left: 104px;
 
   }
   
@@ -129,14 +186,14 @@
     display: flex;
     transition: transform 0.3s ease-in-out;
     width:1000px;
-left:104px;
+
   }
   
   .image-scroll-content img {
-   width: 368px;
+    width: 368px;
     height: 369px;
     top: 2321px;
-    left: 120px;
+    left: 104px;
     background: var(--light-fills-color-image-placeholder, #909090);
   }
   

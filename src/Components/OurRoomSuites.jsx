@@ -40,15 +40,15 @@ const OurRoomSuites = () => {
   return (
     <div className="room-and-suites-container">
       <div className="section-heading">
+        <div className="ourroomandsuites_text">
        <h3>Our Rooms and Suites</h3>
-        <button className="scroll-button" onClick={() => handleScrollClick('left')}>
+       <p className='ourroomandsuites_description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.</p>
+       </div> 
+       <button className="scroll-buttonleft" onClick={() => handleScrollClick('left')}>
         <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
   <path d="M15.2929 3.29297L6.58594 12L15.2929 20.707L16.7069 19.293L9.41394 12L16.7069 4.70697L15.2929 3.29297Z" />
-</svg>
-             
-    
-        </button>
-        <button className="scroll-button" onClick={() => handleScrollClick('right')}>
+</svg> </button>
+        <button className="scroll-buttonright" onClick={() => handleScrollClick('right')}>
         <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
    <path d="M7.29297 4.70697L14.586 12L7.29297 19.293L8.70697 20.707L17.414 12L8.70697 3.29297L7.29297 4.70697Z" />
     </svg></button>
@@ -61,11 +61,11 @@ const OurRoomSuites = () => {
           >
             <div className="card1">
               <div className="Room-image1"></div>
-              <h3 className='DeluxRoom'>Delux </h3>
+              <h3 className='DeluxRoom'>Delux Room</h3>
             </div>
             <div className="card2">
               <div className="Room-image2"></div>
-              <h3 className='StandardRoom'>Standard</h3>
+              <h3 className='StandardRoom'>Standard Room</h3>
             </div>
             <div className="card3">
               <div className="Room-image3"></div>
