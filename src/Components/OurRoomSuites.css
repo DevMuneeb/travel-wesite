@@ -36,31 +36,31 @@ color:#515151;
   }
   .card1{
     width: 400px;
-height: 556px;
-top: 2305px;
-left: 104px;
-padding:16px 16px 16px ;
+    height: 500px;
+    top: 2305px;
+    left: 104px;
+    padding:16px 16px 16px ;
 
   }
   .card2{
     width: 400px;
-height: 556px;
+height: 500px;
 top: 2305px;
 left: 104px;
-padding:16px 16px 16px ;
+padding:16px 16px 16px 16px ;
 
   }
   .card3{
     width: 400px;
-height: 556px;
+   height: 500px;
 top: 2305px;
 left: 104px;
-padding:16px 16px 16px ;
+padding:16px 16px 16px 24px;
 
   }
   .card4{
     width: 400px;
-height: 556px;
+height: 500px;
 top: 2305px;
 left: 104px;
 padding:16px 16px 16px ;
@@ -71,7 +71,7 @@ padding:16px 16px 16px ;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
-    height: 723px; 
+    height: 600px; 
   
   }
   
@@ -155,9 +155,7 @@ border: none;
         left: 536px;
         width: 368px;
         height: 369px;
-      
-        
-        flex-shrink: 0;
+      flex-shrink: 0;
         background: var(--light-fills-color-image-placeholder, #909090);
        }
        .Room-image4{
@@ -166,8 +164,6 @@ border: none;
         left: 536px;
         width: 368px;
         height: 369px;
-       
-        
         flex-shrink: 0;
         background: var(--light-fills-color-image-placeholder, #909090);
        }
@@ -177,7 +173,7 @@ border: none;
     overflow: hidden;
     width: 300px;
     width: 1350px;
-    height: 556px;
+    height: 420px;
     left: 104px;
 
   }
@@ -185,6 +181,7 @@ border: none;
   .image-scroll-content {
     display: flex;
     transition: transform 0.3s ease-in-out;
+    height:556px;
     width:1000px;
 
   }
